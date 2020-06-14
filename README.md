@@ -9,6 +9,7 @@ BlueShift sayesinde kopyalama izni vermeyen bir web sayfasından içerik alabili
 
 
 MacOSX, Linux, Unix ve Windows işletim sistemlerinde aşağıdaki yönergeler ile sorunsuzca çalıştırılabilir.
+## Gerekli Kütüphanenin Kurulumu
 
 ### OSX :
 Tesseract OCR kütüphanesi sisteme kurulu olmalıdır. Bunun için terminal açılır ve 
