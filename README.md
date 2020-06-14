@@ -7,6 +7,7 @@
 BlueShift, kopyalanamayan formattaki yazıların otomatik metine dönüştürülmesini amaçlayan bir java masaüstü programıdır. 
 BlueShift sayesinde kopyalama izni vermeyen bir web sayfasından içerik alabilir, görselleri yazıya dönüştürebilirsiniz.
 
+
 MacOSX, Linux, Unix ve Windows işletim sistemlerinde aşağıdaki yönergeler ile sorunsuzca çalıştırılabilir.
 
 ### OSX :
@@ -23,8 +24,23 @@ Sistemin mevcut paket yöneticisi her ne ise tesseract kütüphanesi kurulmalıd
 ```bash
 sudo apt-get install tesseract
 ```
+eğer tesseract kütüphanesi dağıtımınız için yok ise 
+```bash
+sudo apt-get install tesseract-ocr-tur
+```
+kurulabilir.
+
 ### Windows :
 Herhangi bir ek çabaya gerek yoktur. Windows klasöründeki proje sorunsuz çalışacaktır. Eğer bir sorun oluşursa projenin netbeans'te açılıp tess4j dll dosyalarının tekrar ef edilmesi yeterli olacaktır.
+
+## Netbeans olmadan SADECE çalıştırmak için
+Yukarıdaki kütüphane kurulumunu yaptıktan sonra executable klasörüne girin,
+```bash
+java -jar "BlueShift.jar"
+```
+komutunu terminalden çalıştırın.
+
+Not: Proje kodlarında düzenleme yapacaksanız Netbeans ide ile açmanız size kolaylık sağlar
 
 ==============================================================================
 
