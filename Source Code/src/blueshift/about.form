@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="copyright" alignment="0" pref="701" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="239" max="-2" attributes="0"/>
+              <Component id="header" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="header" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="copyright" min="-2" pref="324" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.TextArea" name="copyright">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="BlueShift OPENSOURCE OCR SOFTWARE&#xa;&#xa;&#xdc;mit Aksoylu 2020 &#xa9; M.I.T  Lisans&#x131;&#xa;&#xa;Bu proje tamamen a&#xe7;&#x131;k kaynak kodlu ve &#xfc;cretsiz bir yaz&#x131;l&#x131;md&#x131;r. &#xa;Kaynak kodlar&#x131;na ve github reposuna bu linkten ula&#x15f;&#x131;labilir:&#xa;&#xa;http://github.com/aksoylu/BlueShift&#xa;&#xa;&#xa;BlueShift, kopyalanamayan formattaki yaz&#x131;lar&#x131;n otomatik metine d&#xf6;n&#xfc;&#x15f;t&#xfc;r&#xfc;lmesini ama&#xe7;layan bir java masa&#xfc;st&#xfc; program&#x131;d&#x131;r. &#xa;BlueShift sayesinde kopyalama izni vermeyen bir web sayfas&#x131;ndan i&#xe7;erik alabilir, g&#xf6;rselleri yaz&#x131;ya d&#xf6;n&#xfc;&#x15f;t&#xfc;rebilirsiniz.&#xa;&#xa;MacOSX, Linux, Unix ve Windows i&#x15f;letim sistemlerinde a&#x15f;a&#x11f;&#x131;daki y&#xf6;nergeler ile sorunsuzca &#xe7;al&#x131;&#x15f;t&#x131;r&#x131;labilir.&#xa;&#xa;### OSX :&#xa;Tesseract OCR k&#xfc;t&#xfc;phanesi sisteme kurulu olmal&#x131;d&#x131;r. Bunun i&#xe7;in terminal a&#xe7;&#x131;l&#x131;r ve &#xa;&#xa;brew install tesseract&#xa;&#xa;ile tesseract k&#xfc;t&#xfc;phanesi y&#xfc;klenir. E&#x11f;er sistemde Brew paket y&#xf6;neticisi yok ise&#xa;https://brew.sh/&#xa;bu sayfadaki ad&#x131;mlar ile kurulabilir&#xa;&#xa;### Linux:&#xa;Sistemin mevcut paket y&#xf6;neticisi her ne ise tesseract k&#xfc;t&#xfc;phanesi kurulmal&#x131;d&#x131;r. &#xd6;rne&#x11f;in debian i&#xe7;in&#xa;&#xa;sudo apt-get install tesseract&#xa;&#xa;### Windows :&#xa;Herhangi bir ek &#xe7;abaya gerek yoktur. Windows klas&#xf6;r&#xfc;ndeki proje sorunsuz &#xe7;al&#x131;&#x15f;acakt&#x131;r. &#xa;E&#x11f;er bir sorun olu&#x15f;ursa projenin netbeans&apos;te a&#xe7;&#x131;l&#x131;p tess4j dll dosyalar&#x131;n&#x131;n tekrar ef edilmesi yeterli olacakt&#x131;r.&#xa;&#xa;======================================================================&#xa;&#xa;&#xdc;mit Aksoylu 2020 &#xa9; M.I.T License&#xa;&#xa;This project is completely open source and free software. Source codes and github repos can be found at this link:&#xa;http://github.com/aksoylu/BlueShift&#xa;&#xa;BlueShift is a java desktop program that aims to automatically translate text that cannot be copied into text.&#xa;Thanks to BlueShift, you can take content from a web page that does not allow copying, and convert the images to text.&#xa;&#xa;It can be run smoothly on MacOSX, Linux, Unix and Windows operating systems with the following instructions.&#xa;&#xa;### OSX:&#xa;Tesseract OCR library must be installed on the system. For this, the terminal opens and&#xa;&#xa;brew install tesseract&#xa;&#xa;The tesseract library is loaded with. If there is no Brew package manager in the system&#xa;https://brew.sh/&#xa;can be installed with the steps on this page&#xa;&#xa;### Linux:&#xa;Whatever is the current package manager of the system, the tesseract library should be installed. For example debian&#xa;&#xa;sudo apt-get install tesseract&#xa;&#xa;### Windows:&#xa;No additional effort is required. The project in the Windows folder will run smoothly. &#xa;If there is a problem, it will be enough to open the project in netbeans and re-eject tess4j dll files.&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="header">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="24" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e7" green="7d" red="6b" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="BlueShift 1.0"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
