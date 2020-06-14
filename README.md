@@ -2,6 +2,8 @@
 
 Ümit Aksoylu 2020 © M.I.T  Lisansı
 
+![](howtowork.gif)
+
 BlueShift, kopyalanamayan formattaki yazıların otomatik metine dönüştürülmesini amaçlayan bir java masaüstü programıdır. 
 BlueShift sayesinde kopyalama izni vermeyen bir web sayfasından içerik alabilir, görselleri yazıya dönüştürebilirsiniz.
 
